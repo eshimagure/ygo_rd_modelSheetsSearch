@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 上に戻るボタンクリックの際の動作をスムーズにする */
+html { 
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 16px;
+    width: 90%;
+    margin: 1em auto;
+    background-color: rgb(243,243,243);
+}
+h1 {
+    font-size: 1.2em;
+}
+li {
+    list-style: none;
+}
+
+/* index.js */
+.outer {
+    max-width: 1080px;
+    margin: 0.5em auto;
+}
+
+/* ////// IllustSearch.jxs  ////// */
+.wrapper {
+    width: 98%;
+}
+
+.link {
+    color: #da2b5c;
+    text-decoration:none;
+}
+
+/* ///// 名前検索 ///// */
+.searchAreaWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em 0.7em 0.7em 0;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.onChangeName {
+    height: 2.5em;
+    min-width: 16em;
+}
+.onClickClear {
+	font-size: 0.9em;
+    background-color: rgb(255, 166, 166);
+    color: rgb(248, 248, 248);
+    margin:0 2em 0 3px ;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+/* イラスト種類フィルター */
+.categoryFilter {
+    margin: 1em 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+.categoryFilter label {
+    cursor: pointer;
+}
+
+/* ///// イラスト種類フィルター ラジオボタンデザイン ///// */
+/* ラジオボタンを視覚的に隠す */
+.visuallyHidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* フィルターボタンの基本スタイル */
+.filterButton {
+    display: inline-block;
+    padding: 0.6em 1.2em;
+    margin-right: 0.3em;
+    border: 2px solid #ccc;
+    /* border-radius: 5px; */
+    background-color: #f8f8f8;
+    color: #333;
+    font-size: 0.9em;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* フィルターボタンのホバースタイル */
+.filterButton:hover {
+    background-color:rgb(255, 204, 0);
+}
+
+/* 選択中のフィルターボタンのスタイル */
+.activeFilter {
+    background-color:rgb(255, 204, 0);
+    color: #333;
+    border-color: #666;
+    font-weight: bold;
+}
+
+/* categoryFilter コンテナのスタイル調整（必要に応じて） */
+.categoryFilter {
+    margin: 1em 0;
+    display: flex;
+    gap: 0.8em; /* ボタン間の余白を調整 */
+    align-items: center; /* 縦方向の中央揃え */
+}
+
+.categoryFilter label {
+    margin-bottom: 0; /* labelのデフォルトのmarginをリセット */
+}
+
+/* 種族・テーマ絞り込み タブUI */
+.tabContainer {
+    margin-bottom: 0.5em;
+}
+.tabButtons {
+    display: flex;
+}
+.tabButtons button {
+    padding: 0.8em 1em;
+    border: 3px solid #ccc;
+    border-bottom: none;
+    background-color: rgb(243,243,243);
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 8px 8px 0 0;
+}
+.tabButtons button.activeTab {
+    background-color: #666;
+    color: #fff;
+    border-color: #666;
+    font-weight: bold;
+}
+.tabContent {
+    border: 1px solid #666;
+}
+
+/* カテゴリーバッジ */
+.categoryBadgeConcept, .categoryBadgeFull {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    margin-right: 0.8em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+}
+.categoryBadgeConcept {
+    background-color: #3a99ff; /* 青系 */
+}
+.categoryBadgeFull {
+    background-color: #ff6868; /* 緑系 */
+}
+
+/*///// 検索結果数と件数・並び順ソート///// */
+.sortWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.resultNumber {
+    width: 10em;
+    margin: 0.5em auto 0.5em 0; 
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.onChangeSort{
+    height: 2em;
+    min-width: 12em;
+    margin-left: 1em; 
+}
+
+.itemsPerPageSelector {
+    display: flex;
+    align-items:center;
+    gap: 0.5em;
+    margin: 0.5em 0 0.5em auto; 
+}
+
+.itemsPerPageSelector select {
+    padding: 0.3em;
+    min-width: 6em;
+}
+
+.ulSort {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #666;
+    padding: 0.5em;
+}
+
+.ulSort li{
+    margin: 0.2em;
+}
+
+.labelSort input {
+	display: none; /* デフォルトのinputは非表示にする */
+}
+.spanSort {
+    background: rgb(248, 248, 248);
+	color: #333; 
+    font-size: 0.9em;
+    text-align: center;
+	border: 1px solid #333; 
+	border-radius: 1px;
+    display: inline-block;
+	padding: 0.2em 0.5em;
+    min-width: 6.3em;
+}
+
+.spanSort:hover {
+    background: #ccc;
+}
+
+.labelSort input:checked + .spanSort {
+    font-weight: bold;
+	background: rgb(255, 204, 0); 
+}
+
+.modelSheetsWrapper {
+    margin-bottom: 0.5em;
+    border: 2px solid #333;
+    border-radius: 0 8px  8px 8px;
+}
+
+.modelSheetsText {
+    padding: 0 0.5em 0.5em 1em;
+    background-color: #333;
+    color: #FFF;
+    font-size: 1em;
+}
+
+.modelSheetsText a {
+    text-decoration: none;
+    color: #aaa;
+    padding: 0 0.3em;
+}
+
+.modelSheetsText a:hover {
+    background-color: antiquewhite;
+}
+
+.contentsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imageWrapper {
+    width: 40%;
+    margin: 0.5em auto;
+}
+
+.imageWrapper:hover {
+    transform:  translate(3px,3px);
+}
+
+.imageSize {
+    width: 100%;
+}
+
+/* ///// ページネーション部分 ///// */
+.paginationControls {
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 1em; */
+    position: fixed;
+    bottom:0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.pagination {
+    background-color: rgba(50,50,50,0.8);
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.3em 0.5rem;
+    color: #ccc;
+}
+
+.pagination button {
+    margin: 0 0.5em;
+    padding: 0.3em 1em;
+    border: 1px solid #e4e4e4;
+    background-color: #e4e4e4;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.pagination button:hover:not(:disabled) {
+    background-color: #bdbdbd;
+}
+
+.pagination button:disabled {
+    color: #b6b6b6;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    margin: 0 0.5em;
+    font-weight: bold;
+}
+
+/* ///// フッター部分 ///// */
+.footer {
+    margin-bottom: 5em;
+}
+
+.footer p{
+    height: 2em;
+    margin: 1em auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.topPage {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    text-decoration:none;
+    color: #888;
+    z-index: 999;
+    border-radius: 50%;
+    width:3em;
+    height:3em;
+}
+
+/* レスポンシブ対応 */
+@media(max-width:720px) {
+    body {
+        font-size: 14px;
+        width: 95%;
+        margin: 1em auto;
+    }
+    .onClickClear{
+        font-size: 1em;
+    }
+    .spanSort {
+        font-size: 1em;
+        padding:0.4em; 
+    }
+    .outer,.wrapper {
+        width: 100%;
+    }
+    
+    .onChangeName {
+        max-width: 15em;
+    }
+    .imageWrapper {
+        width: 80%;
+    }
+    .paginationControls {
+    flex-direction: column;
+    gap: 1em;
+    }
+}
+
+@media(max-width:480px) {
+    .searchAreaWrapper {
+        display: block;
+    }
+    .onClickReset {
+        margin-top: 0.5em;
+    }
+    .topPage {
+    bottom: 3em;
+    width: 4em;
+    height: 4em;
+    }
+    .pagination{
+    padding: 0.5rem;
+    }
+    .paginationControls,
+    .pagination button{
+    font-size: 0.7rem;
+    }
+}
