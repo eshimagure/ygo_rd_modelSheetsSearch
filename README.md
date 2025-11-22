@@ -4,7 +4,7 @@
 
 公式X (旧Twitter) で公開された『遊戯王ラッシュデュエル』のモンスター設定画や全身イラストを、カード名・種族・テーマなどで絞り込み検索できる非公式ファンサイトです。
 
-**[👉 実際のサイトを見る](https://eshimagure.github.io/ygo_rd_modelSheetsSearch)**
+**[👉 実際のサイトを見る](https://ygo-rd-fansite.ltt.jp/modelSheetsSearch/)**
 
 ## 主な機能
 このツールには、以下の機能が実装されています。
