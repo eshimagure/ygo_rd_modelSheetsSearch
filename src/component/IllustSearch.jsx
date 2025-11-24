@@ -112,7 +112,7 @@ export default function IllustSearch({ data }) {
                 <div>
                     <input
                         type="text"
-                        placeholder="カード名を入力"
+                        placeholder="カード名を入力（正式名・ひらがな対応）"
                         value={name}
                         onChange={handleNameChange}
                         className={styles.onChangeName}

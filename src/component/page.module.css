@@ -48,7 +48,11 @@ li {
 
 .onChangeName {
     height: 2.5em;
+    width: 20em;
     min-width: 16em;
+}
+input::placeholder {
+ font-size: 11px;
 }
 .onClickClear {
 	font-size: 0.9em;
@@ -365,7 +369,7 @@ li {
     }
     
     .onChangeName {
-        max-width: 15em;
+        max-width: 16em;
     }
     .imageWrapper {
         width: 80%;
