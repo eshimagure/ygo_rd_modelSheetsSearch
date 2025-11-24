@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ygo_rd_modelSheetsSearch/static/css/main.c27924c8.css",
-    "main.js": "/ygo_rd_modelSheetsSearch/static/js/main.9fa8a2e1.js",
-    "static/js/488.495bc3a8.chunk.js": "/ygo_rd_modelSheetsSearch/static/js/488.495bc3a8.chunk.js",
-    "index.html": "/ygo_rd_modelSheetsSearch/index.html",
-    "main.c27924c8.css.map": "/ygo_rd_modelSheetsSearch/static/css/main.c27924c8.css.map",
-    "main.9fa8a2e1.js.map": "/ygo_rd_modelSheetsSearch/static/js/main.9fa8a2e1.js.map",
-    "488.495bc3a8.chunk.js.map": "/ygo_rd_modelSheetsSearch/static/js/488.495bc3a8.chunk.js.map"
+    "main.css": "/ygo_ocg_modelSheetsSearch/static/css/main.4b4f4a90.css",
+    "main.js": "/ygo_ocg_modelSheetsSearch/static/js/main.110cd8f4.js",
+    "static/js/488.f7d88c1f.chunk.js": "/ygo_ocg_modelSheetsSearch/static/js/488.f7d88c1f.chunk.js",
+    "index.html": "/ygo_ocg_modelSheetsSearch/index.html",
+    "main.4b4f4a90.css.map": "/ygo_ocg_modelSheetsSearch/static/css/main.4b4f4a90.css.map",
+    "main.110cd8f4.js.map": "/ygo_ocg_modelSheetsSearch/static/js/main.110cd8f4.js.map",
+    "488.f7d88c1f.chunk.js.map": "/ygo_ocg_modelSheetsSearch/static/js/488.f7d88c1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c27924c8.css",
-    "static/js/main.9fa8a2e1.js"
+    "static/css/main.4b4f4a90.css",
+    "static/js/main.110cd8f4.js"
   ]
 }
