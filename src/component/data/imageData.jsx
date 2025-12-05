@@ -136,7 +136,11 @@ const imageData = [
 {id:'131',name:'天地諧謔のコスモス姫',ruby:'てんちかいぎゃくのこすもすひめ',date:'2025-10-17',imageUrl:'https://pbs.twimg.com/media/G3XKvp9bEAAofNg.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1979125246352593153',type:'ギャラクシー',theme:'コスモス姫',theme2:''},
 {id:'132',name:'レジェンド・ネクロマンサー',ruby:'れじぇんど・ねくろまんさー',date:'2025-10-18',imageUrl:'https://pbs.twimg.com/media/G3XLE6pa8AA-REO.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1979381936792715290',type:'悪魔',theme:'レジェンド',theme2:''},
 {id:'133',name:'夕極精のコスモスター',ruby:'ゆうきょくせいのこすもすたー',date:'2025-10-18',imageUrl:'https://pbs.twimg.com/media/G3XLRijaIAAOrIk.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1979487626156802551',type:'ギャラクシー',theme:'コスモス姫',theme2:''},
-{id:'134',name:'黒極精のコスモスター',ruby:'こっきょくせいのこすもすたー',date:'2025-10-19',imageUrl:'https://pbs.twimg.com/media/G3XLrU_bIAAn5Rn.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1979744322062000365',type:'ギャラクシー',theme:'コスモス姫',theme2:''}
+{id:'134',name:'黒極精のコスモスター',ruby:'こっきょくせいのこすもすたー',date:'2025-10-19',imageUrl:'https://pbs.twimg.com/media/G3XLrU_bIAAn5Rn.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1979744322062000365',type:'ギャラクシー',theme:'コスモス姫',theme2:''},
+{id:'135',name:'超撃龍ドラギアスターIF',ruby:'ちょうげきりゅうどらぎあすたーいふ',date:'2025-11-28',imageUrl:'https://pbs.twimg.com/media/G6qiHEzbwAQqoxf.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1994337973488251178',type:'ハイドラゴン',theme:'ドラギアス',theme2:''},
+{id:'136',name:'ネクメイド・ルーカー',ruby:'ねくめいど・るーかー',date:'2025-11-29',imageUrl:'https://pbs.twimg.com/media/G6qhM2YacAATSAZ.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1994602221401772183',type:'アンデット',theme:'ネクメイド',theme2:''},
+{id:'137',name:'ローレ・ライミー',ruby:'ろーれ・らいみー',date:'2025-11-29',imageUrl:'https://pbs.twimg.com/media/G6qhi2oaEAAQFp0.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1994707915039805937',type:'水',theme:'',theme2:''},
+{id:'138',name:'荘厳なるブレイズファント',ruby:'そうごんなるぶれいずふぁんと',date:'2025-11-30',imageUrl:'https://pbs.twimg.com/media/G6qh7GzbwAgCTLW.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1994964607547359675',type:'機械',theme:'',theme2:''},
 ]
 export default imageData;
 
