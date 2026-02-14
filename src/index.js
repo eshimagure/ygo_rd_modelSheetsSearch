@@ -5,6 +5,8 @@ import imageData from './component/data/imageData'; // 設定画イラストデ�
 import data from './component/data/data'; // 全体イラストデータ
 import styles from './component/page.module.css'
 import IllustSearch from './component/IllustSearch';
+//  "homepage": "https://eshimagure.github.io/ygo_rd_modelSheetsSearch",
+//  "homepage": "https://ygo-rd-fansite.ltt.jp/modelSheetsSearch/",
 
 // imageDataに「設定画」カテゴリーを追加
 const categorizedImageData = imageData.map(item => ({

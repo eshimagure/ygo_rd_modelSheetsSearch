@@ -141,6 +141,16 @@ const imageData = [
 {id:'136',name:'ネクメイド・ルーカー',ruby:'ねくめいど・るーかー',date:'2025-11-29',imageUrl:'https://pbs.twimg.com/media/G6qhM2YacAATSAZ.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1994602221401772183',type:'アンデット',theme:'ネクメイド',theme2:''},
 {id:'137',name:'ローレ・ライミー',ruby:'ろーれ・らいみー',date:'2025-11-29',imageUrl:'https://pbs.twimg.com/media/G6qhi2oaEAAQFp0.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1994707915039805937',type:'水',theme:'',theme2:''},
 {id:'138',name:'荘厳なるブレイズファント',ruby:'そうごんなるぶれいずふぁんと',date:'2025-11-30',imageUrl:'https://pbs.twimg.com/media/G6qh7GzbwAgCTLW.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1994964607547359675',type:'機械',theme:'',theme2:''},
+{id:'139',name:'髑巌妃ソプラ',ruby:'どくがんひそぷら',date:'2026-01-09',imageUrl:'https://pbs.twimg.com/media/G9FiKtubUAEjAw5.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2009565817546080348',type:'アンデット',theme:'',theme2:''},
+{id:'140',name:'霜浄馬ヤブメ',ruby:'そうじょうばやぶめ',date:'2026-01-10',imageUrl:'https://pbs.twimg.com/media/G9FiX1ZboAI0W2r.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2009822505889157460',type:'獣',theme:'',theme2:''},
+{id:'141',name:'マッドレア・アメロ',ruby:'まっどれあ・あめろ',date:'2026-02-05',imageUrl:'https://pbs.twimg.com/media/HAMcLQGbIAANYYn.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2019357841891766622',type:'爬虫類',theme:'マッドレア・アメロ',theme2:''},
+{id:'142',name:'冥跡のカーディー',ruby:'めいせきのかーでぃー',date:'2026-02-10',imageUrl:'https://pbs.twimg.com/media/HAsd1XnasAA0HTF.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2021162233921708410',type:'獣戦士',theme:'冥跡',theme2:''},
+{id:'143',name:'夢中のティーガ',ruby:'むちゅうのてぃーが',date:'2026-02-11',imageUrl:'https://pbs.twimg.com/media/HAseERKawAAbT7S.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2021524614070124744',type:'昆虫',theme:'夢中',theme2:''},
+{id:'144',name:'イシリアの依代',ruby:'いしりあのよりしろ',date:'2026-02-12',imageUrl:'https://pbs.twimg.com/media/HAseYHeaMAAjPRL.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2021887009703239921',type:'獣戦士',theme:'冥跡',theme2:''},
+{id:'145',name:'冥跡神イシリア',ruby:'めいせきしんいしりあ',date:'2026-02-12',imageUrl:'https://pbs.twimg.com/media/HAseYHeaMAAjPRL.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2021887009703239921',type:'獣戦士',theme:'冥跡',theme2:''},
+{id:'146',name:'ラヴ・フェレシュテ',ruby:'らヴ・ふぇれしゅて',date:'2026-02-14',imageUrl:'https://pbs.twimg.com/media/HAsfyIfaMAAazjN.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2022490980725711223',type:'天使',theme:'ラヴ',theme2:''},
+{id:'147',name:'火麺忍者ストレー',ruby:'かめんにんじゃすとれー',date:'2026-02-14',imageUrl:'https://pbs.twimg.com/media/HAsgHhWaIAA6MQN.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2022611782226120811',type:'炎',theme:'火麺',theme2:''},
+{id:'148',name:'火麺速忍ビギニング・ヒヤシ',ruby:'かめんそくにんびぎにんぐ・ひやし',date:'2026-02-14',imageUrl:'https://pbs.twimg.com/media/HAsgImWaMAA9NET.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2022611782226120811',type:'炎',theme:'火麺',theme2:''},
 ]
 export default imageData;
 

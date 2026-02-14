@@ -16,6 +16,12 @@ const data = [
 {id:'w013',name:'永劫の神導龍',ruby:'えたにてぃ・えーてる・どらごん',date:'2025-09-05',imageUrl:'https://pbs.twimg.com/media/G0DwoPxaYAA0tND.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1963904941753606167',type:'ドラゴン',theme:'',theme2:''},
 {id:'w014',name:'天導聖の見継ぎ人',ruby:'てんどうせいのみつぎびと',date:'2025-09-07',imageUrl:'https://pbs.twimg.com/media/G0DwzxnasAADQ3t.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1964629719178965196',type:'魔法使い',theme:'',theme2:''},
 {id:'w015',name:'闇獄皇アバド',ruby:'あんごくおうあばど',date:'2025-09-08',imageUrl:'https://pbs.twimg.com/media/G0DwKJUacAA8bLu.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/1964992117866205356',type:'悪魔',theme:'',theme2:''},
+{id:'w016',name:'叛骨装典スフレルーダ',ruby:'',date:'2026-01-05',imageUrl:'https://pbs.twimg.com/media/G9FgjctbsAAPCGJ.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2008127585503346903',type:'アンデット',theme:'叛骨',theme2:''},
+{id:'w017',name:'叛骨装剣ガイガスベルグ',ruby:'',date:'2026-01-05',imageUrl:'https://pbs.twimg.com/media/G9FgVQHboAAcSHA.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2008123811850534981',type:'アンデット',theme:'叛骨',theme2:''},
+{id:'w018',name:'スパークハーツ・パッションガール',ruby:'',date:'2026-01-06',imageUrl:'https://pbs.twimg.com/media/G9FhQgmboAAovlW.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2008478649885118600',type:'魔法使い',theme:'スパークハーツ',theme2:''},
+{id:'w019',name:'究極完全態・グレート・モス',ruby:'',date:'2026-01-07',imageUrl:'https://pbs.twimg.com/media/G9FheiRasAED6xx.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2008841164192195059',type:'昆虫',theme:'',theme2:''},
+{id:'w020',name:'癒しの聖風ラーナ',ruby:'',date:'2026-01-08',imageUrl:'https://pbs.twimg.com/media/G9Fhso5aUAA-BDt.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2009203431110828163',type:'サイキック',theme:'',theme2:''},
+{id:'w021',name:'エテルナム・ヴォイドヴェルグ・レクイエム',ruby:'',date:'2026-02-13',imageUrl:'https://pbs.twimg.com/media/HAshy1CaMAAG4_8.jpg:large',url:'https://x.com/YuGiOh_RUSHDUEL/status/2022249392573710810',type:'',theme:'ヴォイドヴェルグ',theme2:''}
 ]
 export default data;
 
